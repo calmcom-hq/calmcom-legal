@@ -85,6 +85,8 @@ a:focus-visible { outline: 2px solid var(--white); outline-offset: 4px; border-r
 }
 .brand { display: flex; align-items: center; min-height: 56px; }
 .brand img { height: 56px; width: auto; display: block; }
+.brand.ew { gap: 14px; }
+.brand img.chip { background: #fff; border-radius: 10px; padding: 5px 8px; height: 58px; }
 .wordmark {
   font-family: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
@@ -194,6 +196,11 @@ footer a { color: var(--text); }
   body { font-size: 1.125rem; }
   .wrap { padding: 0 16px; }
   .brand img { height: 44px; }
+  .partners .wrap { gap: 10px; flex-wrap: nowrap; }
+  .brand.ew { gap: 10px; }
+  .brand img.chip { height: 34px; padding: 3px 5px; border-radius: 7px; }
+  .brand .wordmark { font-size: 1.05rem; }
+  .x { font-size: 1rem; }
   .wordmark { font-size: 1.35rem; }
   .hero .wrap { padding-top: 56px; padding-bottom: 48px; }
   .promise, .contact { padding: 26px 22px; border-radius: 20px; }
